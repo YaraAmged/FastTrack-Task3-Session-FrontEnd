@@ -1,0 +1,100 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Segoe UI;
+}
+h6,
+p {
+  margin: 0;
+}
+.parent {
+  padding: 25px;
+  display: flex;
+  width: 1250px;
+  background-color: white;
+}
+
+.parent1 img {
+  height: 200px;
+}
+.main {
+  margin-left: 10px;
+  width: 100%;
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.date {
+  color: gray;
+  font-size: 15px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.parent1 .content {
+  margin-left: 30px;
+}
+.type {
+  color: #42c3af;
+  font-weight: bold;
+  font-size: 15px;
+}
+.title {
+  font-weight: bold;
+}
+.parent4 .paragraph,
+.parent1 .paragraph,
+.parent3 .paragraph {
+  overflow: hidden;
+  height: 2.5ch;
+  width: 660px;
+}
+
+a {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  background-color: #42c3af;
+  padding: 10px 20px;
+  align-self: flex-end;
+}
+.parent2 {
+  display: flex;
+  width: 1250px;
+  background-color: white;
+}
+.parent.parent2 {
+  padding: 0;
+}
+.parent2 img {
+  height: 300px;
+}
+
+.parent2 .content-wrapper {
+  padding: 25px;
+  height: 250px;
+}
+.parent2 a {
+  margin: 0;
+}
+.parent2 .title,
+.parent4 .title {
+  font-size: 25px;
+}
+.parent2 .paragraph,
+.parent4 .paragraph {
+  font-size: 20px;
+}
+.parent3 img,
+.parent4 img {
+  display: none;
+}
